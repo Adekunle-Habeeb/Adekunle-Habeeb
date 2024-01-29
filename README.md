@@ -10,6 +10,7 @@ The Adaptable marine scientist is now harnessing Python and JavaScript in pursui
 * ✉️  You can contact me at [adekunle22taiwo@gmail.com](mailto:adekunle22taiwo@gmail.com)
 * 🚀  I'm currently working on [Building Artificial neural network to recognize image using keras and tensorflow](http://github.com/Adekunle-Habeeb/image_classifier)
 * 🧠  I'm learning tensorflow, three.js, DSA
+* 🖥️  See my portfolio at [My Portfolio](http://www.dropbox.com/scl/fi/jn1e601m65c8280kd22u7/My_Resume.pdf?rlkey=7os9o84z65xz8qe3r5rj990yc&dl=0)
 * 🤝  I'm open to collaborating on any interesting and/ open-source projects :)
 * ⚡  I have a superpower.... and it is code. Don't tell anyone🤫
 
