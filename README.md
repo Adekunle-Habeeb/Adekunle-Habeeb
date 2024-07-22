@@ -8,7 +8,7 @@
 
 <div align="center">
   <h2 style="font-size: 24px; font-weight: bold;">
-    Ahoy, matey! ⚓ You've just set sail into the high seas of Python, Machine Learning, and AI. Welcome to my GitHub profile, where data and algorithms meet adventure! 🏴‍☠️🚀🌍
+    Ahoy, matey! ⚓ You've just set sail into the high seas of Data Science, Machine Learning, and AI. Welcome to my GitHub profile, where data and algorithms meet adventure! 🏴‍☠️🚀🌍
   </h2>
 </div>
 
