@@ -14,14 +14,11 @@
 ###
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=your-username.your-username&" />
+  <p style="font-size: 24px; font-weight: bold;">
+    Ahoy, matey! ⚓ You've just set sail into the high seas of Python, Machine Learning, and AI. Welcome to my GitHub profile, where data and algorithms meet adventure! 🏴‍☠️🚀🌍
+  </p>
 </div>
 
-###
-
-<h1 align="center">Ahoy there, matey! 🏴‍☠️</h1>
-
-###
 
 <h3 align="left">👩‍💻 About Me</h3>
 
