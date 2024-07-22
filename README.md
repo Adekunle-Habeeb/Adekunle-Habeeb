@@ -1,15 +1,8 @@
 <div align="center">
-  <p>Ahoy, matey! ⚓ You've just set sail into the high seas of Python, Machine Learning, and AI. Welcome to my GitHub profile, where data and algorithms meet adventure! 🏴‍☠️🚀🌍</p>
-</div>
-
-
-![gitartwork](gitartwork.svg)
-
-###
-
-<div align="center">
   <h1>Ahoy! 🏴‍☠️ I am Habeeb Adekunle 🏴‍☠️</h1>
 </div>
+
+![gitartwork](gitartwork.svg)
 
 ###
 
