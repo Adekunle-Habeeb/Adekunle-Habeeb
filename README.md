@@ -2,6 +2,8 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=your-username&color=blue)
 
+![gitartwork](gitartwork.svg)
+
 ## About Me
 Ahoy! I'm Habeeb, a software developer and a treasure hunter in the vast seas of data science and machine learning.
 
