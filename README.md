@@ -71,6 +71,7 @@ This repository includes a GitHub Actions workflow to automate the creation of a
   3. **Push ArtWork:** Uses `jasineri/simple-push-action@v1` to push the generated SVG back to the repository.
 
 ### Example Workflow File
+Copy the following code into a `.github/workflows/gitartwork.yml` file in your repository:
 
 ```yaml
 name: gitartwork from a contribution graph
