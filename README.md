@@ -57,24 +57,39 @@ Ahoy! I'm Habeeb, a software developer and a treasure hunter in the vast seas of
 - 🌐 Visit me website: [your-website](https://your-website.com)
 - 📜 Check out me latest logs on [Twitter](https://twitter.com/your-twitter)
 
-## Quote to Sail By
-> "Not all treasure is silver and gold, mate." - Captain Jack Sparrow
+## GitHub Actions Workflow
+This repository includes a GitHub Actions workflow to automate the creation of a custom contribution graph for the profile page.
 
-## Fair Winds and Following Seas!
-![Pirate Flag](https://www.pngkey.com/png/full/230-2301779_pirate-png-transparent-image-pirate-flag-png.png)
+### Workflow Details
+- **Name:** `gitartwork from a contribution graph`
+- **Triggers:**
+  - **Push:** Runs on every push to the repository.
+  - **Schedule:** Runs daily every 24 hours.
+- **Steps:**
+  1. **Checkout Code:** Uses `actions/checkout@v3` to check out the repository code.
+  2. **Generate GitArtWork SVG:** Uses `jasineri/gitartwork@v1` to generate a custom contribution graph SVG with the username `jasineri` and text `JASINERI`.
+  3. **Push ArtWork:** Uses `jasineri/simple-push-action@v1` to push the generated SVG back to the repository.
 
-<div class="footer">
-    <p>Developed by Habeeb | Temperature Prediction Model</p>
-</div>
+### Example Workflow File
 
-<style>
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #f1f1f1;
-    color: #333;
-    text-align: center;
-    padding: 10px;
-}
-</style>
+```yaml
+name: gitartwork from a contribution graph
+
+on: 
+  push:
+  schedule:
+    - cron: '* */24 * * *'
+
+jobs:
+  build:
+    name: Make gitartwork SVG
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jasineri/gitartwork@v1
+        with:
+          # Use this username's contribution graph  
+          user_name: jasineri
+          # Text on contribution graph 
+          text: JASINERI
+      - uses: jasineri/simple-push-action@v1
